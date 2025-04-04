@@ -90,7 +90,7 @@ download_date_info = format(Sys.time(), "%Y-%m-%d")
 # Combine pre and post survey
 
 pm_all_pre_dt_com <- copy(pm_all_pre_dt)
-names(pm_all_dt_com)
+# names(pm_all_dt_com)
 pm_all_pre_dt_com[, c("pm_metrics_label", "options"):= NULL]
 setnames(pm_all_pre_dt_com, old = c("Freq", "Freq_per"), new = c("Count_pre", "Pre_survey"))
 

@@ -17,18 +17,27 @@ tabPanel("Overview",
                              leafletOutput("map_studyarea", height = 500) %>% withSpinner()
                          )
                   ),
-                  column(width=4,
+                  column(width=5,
                          box(width=12,
                              tags$div(
                                tags$h2("Introduction of Performance Measurement Dashboard"),
+                               
+                               tags$h4(tags$p("The", tags$b("Buffalo All Access Performance Measure Dashboard (PMD)"), "is part of the", tags$b("Buffalo All Access: In and around BNMC,"), "an 
+                                        initiative funded in part by the U.S. Department of Transportation (U.S. DOT) under the ITS4US Deployment Program. The project is led by the Niagara Frontier 
+                                        Transportation Authority (NFTA) in partnership with Buffalo Niagara Medical Cener (BNMC). More information may be found at", 
+                                              tags$a(href = "https://bnmc.org/allaccess/", "https://bnmc.org/allaccess"))),
+                               
+                               tags$h4(tags$p("The ITS4US Deployment Program", tags$a(href = "https://its.dot.gov/research-areas/ITS4US/", "https://its.dot.gov/research-areas/ITS4US"), "is a $40 million multimodal effort, led by the Intelligent Transportation 
+                                              Systems (ITS) Joint Program Office (JPO) and supported by the Office of the Secretary, the Federal Highway Administration, and the Federal Transit Administration, 
+                                              to identify ways to provide more efficient transportation options for communities to access essential services.")),
                                # tags$h4("Testing text..testing text.. The PMD will ingest five key datasets, including data collected during baseline (pre-deployment) and post-deployment surveys, CTP user and trip data, and user ratings and operation performance of the CS (including SDS and HDS) trips (Req-PMD-001). The project team will collect the baseline and post-deployment survey data and store them in secure servers. To comply with Institutional Review Board (IRB) regulations and protect PII, the survey data collection team will take necessary steps to anonymize the survey data for the PMD development and share the anonymized data via SharePoint data transfer with MFA. CTP- and CS-related data will also be shared through a secure API (ICD # XX and YY). Each subsystem will remove or anonymize PII before sharing the data with the PMD (Req-PMD-003)....... "),
-                               tags$h4("Buffalo All Access Performance Measure Dashboard (PMD), a comprehensive tool designed to assess and visualize user experiences and performance
+                               tags$h4("The PMD is a comprehensive tool designed to assess and visualize user experiences and performance
                                         metrics associated with Buffalo All Access app. This dashboard provides insights into how users interact with some systems, particularly in the context of
                                         door-to-door trip planning, booking on-demand services, safety, and accessibility within the Buffalo Niagara Medical Campus (BNMC).
                                         
                                        "),
                                # linebreaks(1),
-                               tags$h4("The PMD integrate and analyze five key datasets, including data obtained from both baseline (pre-deployment) and post-deployment surveys. It also 
+                               tags$h4("The dashboard integrate and analyze five key datasets, including data obtained from both baseline (pre-deployment) and post-deployment surveys. It also 
                                         ingest data from Buffalo All Access app user registration and trip records, as well as user ratings and operational performance metrics for the CS 
                                        (including SDS and HDS) trips. The collected data is processed to show the performance of subsystems implemented for Buffalo All Access project."),
                                tags$h4(HTML("The dashboard features a range of performance measures (PMs) that demonstrate various dimensions of user experience:
@@ -37,6 +46,7 @@ tabPanel("Overview",
                                             <li>Safety and accessibility</li>
                                             <li>Availability and usefulness of travel information</li>
                                             <li>System functionality and user engagement.</li>")),
+                               
                                # tags$h4("Testing text..testing text..The collected data will be processed to show the performance metrics defined in the PMESP. This involves quality checking (Req-PMD-002) and applying analytical techniques, algorithms, and statistical methods to transform the data into valuable information. During this stage, the data will be cleaned, organized, and transformed as necessary to ensure accuracy and consistency (Req-PMD-014). Potential PII will also be double-checked and removed (Req-PMD-003). In addition, metadata on all datasets stored in the PMD data layer will be developed (Req-PMD-005)......"),
                                linebreaks(1),
                                # tags$h4("text..."),
@@ -50,7 +60,7 @@ tabPanel("Overview",
                                )
                          ),
                   ),
-                  column(width=3,
+                  column(width=2,
                          box(width = 12, title = "Download",
                              tags$div(
                                tags$h5("It is a processed PM summary table"), 
