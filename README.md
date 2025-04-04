@@ -2,12 +2,15 @@
 
 ## This repository is intended to provide scripts and processed data for dashboard development.
 
-This Buffalo All Access dashboard, [BuffaloAccess-PM-Dashboard](https://rsginc.shinyapps.io/BuffaloAccess-PM-Dashboard/) is designed to visualize performance measures for the following areas of the ITS4US Buffalo All Access project:  
+The Buffalo All Access dashboard, [BuffaloAccess-PM-Dashboard](https://rsginc.shinyapps.io/BuffaloAccess-PM-Dashboard/) is part of the Buffalo All Access: In and around BNMC, an initiative funded in part by the U.S. Department of Transportation (U.S. DOT) under the ITS4US Deployment Program. The project is led by the Niagara Frontier Transportation Authority (NFTA) in partnership with Buffalo Niagara Medical Center (BNMC). More information may be found at [https://bnmc.org/allaccess/](https://bnmc.org/allaccess/).
+This dashboard is designed to visualize performance measures for the following areas of the ITS4US Buffalo All Access project:  
 
   * Ease of trip planning and making
   * Safety and accessibility
   * Availability and usefulness of travel information
   * System functionality and user engagement.
+
+The ITS4US Deployment Program [https://its.dot.gov/research-areas/ITS4US/](https://its.dot.gov/research-areas/ITS4US/) is a $40 million multimodal effort, led by the Intelligent Transportation Systems (ITS) Joint Program Office (JPO) and supported by the Office of the Secretary, the Federal Highway Administration, and the Federal Transit Administration, to identify ways to provide more efficient transportation options for communities to access essential services.
   
 ## Repository Structure
 The structure of the repository is shown in the tree diagram below:
