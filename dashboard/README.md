@@ -1,4 +1,4 @@
-# ITS4US Buffalo All Access Performance Measure Dashboard
+# ITS4US Buffalo All Access Performance Measurement Dashboard
 This directory includes all the required source code required to construct the web application that drives the dashboard. In addition, this repository contains all the final processed datasets (e.g., pre- & post-deployment surveys, and complete trip app data) for the performance measures. 
   
 ## Repository Structure

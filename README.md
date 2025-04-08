@@ -1,4 +1,4 @@
-# ITS4US Buffalo All Access Performance Measure Dashboard
+# ITS4US Buffalo All Access Performance Measurement Dashboard
 
 ## This repository is intended to provide scripts and processed data for dashboard development.
 
